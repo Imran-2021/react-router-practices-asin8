@@ -1,0 +1,9 @@
+.wronginfo{
+    height: 2000px;
+    text-align: justify;
+}
+.wronginfo h1{
+    margin: 10%;
+    padding: 10%;
+    border: 1px solid red;
+}
