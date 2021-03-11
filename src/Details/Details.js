@@ -38,10 +38,10 @@ const Details = () => {
     <div className="half3">
     
         <h1>{details.strLeague}</h1>
-        <h2> <img style={{width:'25px',backgroundColor:'blue'}} src={Icon1}/> Founded : {details.intFormedYear}</h2>
-        <h2> <img style={{width:'25px',backgroundColor:'blue'}} src={Icon3}/> Country : {details.strCountry}</h2>
-        <h2> <img style={{width:'25px',backgroundColor:'blue'}} src={Icon2}/> Sport Type : {details.strSport}</h2>
-        <h2> <img style={{width:'25px',backgroundColor:'blue'}} src={Icon4}/> Gender : {details.strGender}</h2>
+        <h2> <img style={{width:'25px',backgroundColor:'blue'}} src={Icon1} alt=""/> Founded : {details.intFormedYear}</h2>
+        <h2> <img style={{width:'25px',backgroundColor:'blue'}} src={Icon3} alt=""/> Country : {details.strCountry}</h2>
+        <h2> <img style={{width:'25px',backgroundColor:'blue'}} src={Icon2} alt=""/> Sport Type : {details.strSport}</h2>
+        <h2> <img style={{width:'25px',backgroundColor:'blue'}} src={Icon4} alt=""/> Gender : {details.strGender}</h2>
         
         </div>
         <div className='half half2'>
